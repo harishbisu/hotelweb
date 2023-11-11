@@ -1,0 +1,386 @@
+body {
+  margin: 0;
+  scroll-snap-type: none;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+.smallimg {
+  width: 100% !important; /* Set width to 100% to fit in the div */
+  height: 200px; /* Set height to desired size */
+  object-fit: cover; /* Ensure the image covers the entire div */
+  border-radius: 5px !important;
+}
+h1{
+  font-size:20px;
+}
+.btn{
+  background-color:black !important;
+  color: white;
+  box-shadow: none !important;
+  border:none !important;
+}
+.landingbtn{
+  background-color:white !important;
+}
+.bs{
+  box-shadow: inset 0px -10px 5px -10px rgba(0, 0, 0, 0.5);
+  margin-top: 20px !important;
+  border-radius: 5px !important;
+  padding: 20px !important
+}
+.nbs{
+  box-shadow: white !important;
+}
+.ant-picker-input input{
+  border : none !important;
+}
+.bigimg{
+  height: 400px;
+  border-radius: 5px !important;
+}
+input,.ant-picker{
+  box-shadow: none !important;
+  margin-top: 10 px !important;
+  border: 1px solid black !important;
+  padding-top: 2px;
+  width:100%;
+}
+.ant-picker{
+  box-shadow: none !important;
+  margin-top: 10 px !important;
+  border: 1px solid black !important;
+  padding-top: 2px;
+  width:100%;
+  height: 100%;
+}
+
+/* Apply custom styles to make DatePicker panels display horizontally */
+.ant-picker-panel-container {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+}
+
+.ant-picker-panel {
+  flex: 0 0 auto; /* Don't allow panels to grow or shrink */
+  width: auto; /* Allow the panels to adapt to the content width */
+  padding: 0 8px; /* Add some spacing between panels */
+  white-space: nowrap; /* Prevent wrapping of month panels */
+}
+
+
+
+select{
+  box-shadow: none !important;
+  margin-top: 10 px !important;
+  border: 1px solid black !important;
+  padding-top: 2px;
+  width:100%;
+  height: 100% !important;
+}
+.short{
+  width:100% !important;
+  float: center !important;
+}
+.full{
+  width: 100% !important;
+}
+.round{
+  border: 2px solid rgb(194, 184, 184) !important;
+  box-shadow: 2px ,2px ,2px;
+  border-radius:50px !important;
+  width: 100px;
+  height: 100px;
+  justify-content: center !important;
+  margin-top:-70px !important;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  background-color: rgb(93, 119, 132);
+}
+
+.landing{
+  justify-items: center !important;
+  background-color: rgb(183, 170, 170) !important;
+  margin-top: 0.5vh;
+  height: 92vh;
+  width: 101%;
+}
+.fixed{
+  
+    position: fixed !important;
+    top: 0 ;
+    left: 0;
+    right: 0 ;
+    z-index: 100;
+}
+.fixedbar{
+  
+  position: fixed !important;
+  top: 37px ;
+  left: 0;
+  right: 0 ;
+  padding-bottom: 10px !important;
+  padding-top:10px !important;
+  z-index: 99;
+}
+@media (max-width: 767.98px) {
+  .col-md-3,
+  .col-md-5,
+  .col-md-9 {
+    flex-basis: 100%;
+    max-width: 100%;
+  }
+}
+.row.justify-content-center {
+  margin-bottom: 50px;
+}
+
+@media (max-width: 767px) {
+  .home-error{
+    margin-top: 100px !important;
+  }
+}
+  .pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .pagination .page-link {
+    display: inline-block;
+    padding: 8px 12px;
+    margin: 0 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #f5f5f5;
+    color: #333;
+    cursor: pointer;
+  }
+  
+  .pagination .page-link.active {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  .pagination .page-link:hover {
+    background-color: #ddd;
+  }
+  .footer {
+    background-color: #f2f2f2;
+    padding: 40px 0;
+  }
+  
+  .footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .footer-tiles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .footer-tile {
+    flex: 0 0 33.33%;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  
+  .footer-tile-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .footer-tile-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .footer-tile-list li {
+    margin-bottom: 5px;
+  }
+  
+  .footer-text {
+    font-size: 14px;
+    text-align: center;
+    margin: 20px 0 0;
+  }
+  
+  .user-table {
+    border-collapse: collapse;
+  }
+  
+  .user-table td {
+    padding: 10px;
+    justify-content: left;
+    border: none ! important;
+  }
+
+ 
+
+
+
+
+/* Desktop Navbar Styles */
+.desktop-navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: black;
+  height: 60px;
+  padding: 0 20px;
+}
+
+.desktop-navbar .navbar-brand {
+  color: gainsboro;
+}
+
+.desktop-navbar .navbar-nav {
+  display: flex;
+  align-items: center;
+}
+
+.desktop-navbar .nav-link {
+  color: white !important;
+  margin-right: 5%;
+}
+
+.desktop-navbar .dropdown-toggle::after {
+  display: none;
+}
+
+.desktop-navbar .dropdown-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: auto;
+  transform: none;
+}
+
+.desktop-navbar .ml-auto {
+  margin-left: auto !important;
+}
+
+
+/* Mobile Navbar Styles */
+.mobile-navbar {
+  display: none;
+}
+
+.mobile-navbar .navbar-toggler {
+  border: none;
+  background-color: transparent;
+  outline: none;
+}
+
+.mobile-navbar .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3e%3cpath stroke='rgba(255, 255, 255, 1)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+.mobile-navbar .mobile-menu {
+  display: none;
+  background-color: white;
+  padding: 10px;
+  z-index: 999;
+}
+
+.mobile-navbar .mobile-menu-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.mobile-navbar .mobile-menu-list li {
+  margin-bottom: 10px;
+}
+
+.mobile-navbar .mobile-menu-link {
+  color: black;
+  text-decoration: none;
+}
+
+@media (max-width: 991.98px) {
+  .desktop-navbar {
+    display: none;
+  }
+
+  .mobile-navbar {
+    display: block;
+    background-color: black;
+    height: 60px;
+    padding: 0 20px;
+  }
+
+  .mobile-navbar .mobile-menu {
+    display: block;
+  }
+
+  .mobile-navbar .navbar-collapse.show {
+    display: block !important;
+    position: relative;
+    top: 60px;
+    left: 0;
+    width: 100%;
+    background-color: #343a40;
+    padding: 10px;
+    z-index: 9999;
+  }
+
+  .mobile-navbar .dropdown-menu {
+    right: 0 !important;
+    left: auto !important;
+  }
+}
+
+
+
+/* Rating.css */
+
+/* Style for the rating container */
+.rating-container {
+  text-align: center;
+  margin: 20px;
+}
+
+/* Style for the stars */
+.star {
+  font-size: 24px;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.star-filled {
+  color: gold;
+}
+
+.star-empty {
+  color: #ccc;
+}
+
+/* Style for the submit button */
+.submit-button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.submit-button:hover {
+  background-color: #0056b3;
+}
+
